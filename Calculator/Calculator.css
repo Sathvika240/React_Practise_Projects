@@ -1,0 +1,42 @@
+.container {
+  width: 700px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.calculator {
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 600px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+td:hover {
+  background-color: #f5f5f5;
+}
+
+.display {
+  background-color: "#f0f0f0";
+  padding: "20px";
+  border-radius: "5px";
+  margin: "10px 0";
+}
+
+.displayText {
+  text-align: right;
+  font-weight: bold;
+}
